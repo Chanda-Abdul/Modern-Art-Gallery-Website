@@ -1,6 +1,10 @@
-# Frontend Mentor - Art gallery website solution
+# Frontend Mentor - [Art gallery website solution](https://www.frontendmentor.io/challenges/art-gallery-website)
 
-This is a solution to the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+![Design preview for the Sunnyside agency landing page coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/ofieenxp0c7dlmjy0voa.jpg)
+
+
+## Summary
+This is a solution to the [Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website).  Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Link to deployed Site
 [Modern Art Gallery](https://friendly-benz-de5b74.netlify.app/)
@@ -53,12 +57,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Built with
 
 - Semantic HTML5 markup
+- Sass
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
+
 - [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
