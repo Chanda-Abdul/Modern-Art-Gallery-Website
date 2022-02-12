@@ -1,38 +1,628 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  /* color palette */
+  --gold: hsl(24, 56%, 63%);
+  --almost-black: hsl(0, 0%, 8%);
+  --almost-grey: hsl(0, 0%, 27%);
+  --white: hsl(0, 0%, 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* fonts */
+.btn-right,
+.btn-right:hover {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 3rem;
+  overflow: hidden;
+  margin: 1rem 1rem;
+  color: var(--white);
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-right .btn-title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  padding: 2rem 2rem;
+  background-color: var(--almost-black);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn-right .btn-arrow {
+  background-color: var(--gold);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  color: var(--white);
+}
+
+.btn-right:hover .btn-title {
+  background-color: var(--gold);
+}
+
+.btn-right.btn-right:hover .btn-arrow {
+  background-color: var(--black);
+}
+
+.btn-right:hover {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 3rem;
+  overflow: hidden;
+  margin: 1rem 1rem;
+  color: var(--white);
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(80%, var(--gold)), color-stop(20%, var(--almost-black)));
+  background-image: linear-gradient(to right, var(--gold) 80%, var(--almost-black) 20%);
+}
+
+.btn-left {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 3rem;
+  overflow: hidden;
+  margin: 1rem 1rem;
+  color: var(--white);
+  border: none;
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(80%, var(--almost-black)), color-stop(20%, var(--gold)));
+  background-image: linear-gradient(to left, var(--almost-black) 80%, var(--gold) 20%);
+}
+
+.btn-left:hover {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 3rem;
+  overflow: hidden;
+  margin: 1rem 1rem;
+  color: var(--white);
+  border: none;
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(80%, var(--gold)), color-stop(20%, var(--almost-black)));
+  background-image: linear-gradient(to left, var(--gold) 80%, var(--almost-black) 20%);
+}
+
+.btn-left {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 3rem;
+  overflow: hidden;
+  margin: 1rem 1rem;
+  color: var(--white);
+  border: none;
+}
+
+.btn-left:hover {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 3rem;
+  overflow: hidden;
+  margin: 1rem 1rem;
+  color: var(--white);
+  border: none;
+}
+
+/* mobile */
+picture.hero img {
+  width: 100vw;
+}
+
+.hero-title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: var(--almost-black);
+  margin: 2rem 1rem;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+.byline-copy {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 1rem 1rem;
+  padding: 0 3rem 0rem 0;
+  width: auto;
+}
+
+.your-day, .inspo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5vw;
+}
+
+.your-day h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 60px;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin: 1.5rem 0rem;
+}
+
+.your-day-image-mobile {
+  height: 90vw;
+  width: 90vw;
+}
+
+.your-day p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 1.5rem 0rem;
+}
+
+.inspo-image-second-mobile {
+  width: 90vw;
+  margin: 5vw;
+}
+
+.inspo-image-third-mobile {
+  width: 90vw;
+  margin: 0 5vw;
+}
+
+.inspo-text {
+  margin: 2.5vw 5vw 6rem 5vw;
+  background-color: var(--almost-black);
+  color: var(--white);
+  padding: 2rem 1rem;
+}
+
+.inspo-text h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 60px;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.inspo-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: var(--almost-black);
+  color: var(--white);
+  margin: 0 0 0 0;
+  padding: 0 5vw  4rem 5vw;
+}
+
+footer h4 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1.35rem;
+  width: 30vw;
+  padding: 1.5rem 0;
+}
+
+footer p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  width: 80vw;
+  padding: 1.5rem 0;
+}
+
+.footer-social-icons {
+  padding: .5rem;
+}
+
+/* location page*/
+.home-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.locate {
+  position: relative;
+  height: 75vh;
+}
+
+.location-text {
+  background-color: var(--almost-black);
+  padding: 3rem 1rem;
+  color: var(--white);
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.location-text h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 60px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.location-text ul {
+  margin: 2rem 0rem;
+  list-style: none;
+}
+
+.location-text h4 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 2rem 0rem;
+}
+
+.orange {
+  background-color: var(--gold);
+  color: var(--almost-black);
+}
+
+/* media queries */
+@media (min-width: 768px) {
+  .banner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -ms-grid-rows: 100vh;
+        grid-template-rows: 100vh;
+    -webkit-column-gap: 0;
+            column-gap: 0;
+    row-gap: 0;
+    z-index: 1;
   }
-  to {
-    transform: rotate(360deg);
+  .hero-title {
+    color: var(--white);
+    left: 10%;
+    width: 40%;
+  }
+  .hero-byline {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    position: absolute;
+    margin: 0;
+    padding: 0 2rem 2rem 2rem;
+    top: 20%;
+    left: 55%;
+    width: 40%;
+    z-index: 3;
+  }
+  .hero-byline p {
+    padding: 0 5rem 2rem 0;
+  }
+  .hero-left {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    background-color: var(--almost-black);
+    color: var(--white);
+    z-index: 2;
+  }
+  .hero-mid {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    background-position: center;
+    height: 100%;
+    z-index: 1;
+  }
+  .hero-right {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    background-color: var(--white);
+  }
+  .info-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto auto;
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+    margin: 5em 5em 2em 5em;
+    gap: 2em 2em;
+  }
+  .your-day {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 1/1/2/3;
+    width: 30vw;
+    height: 30vw;
+  }
+  .img-first {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 4;
+    grid-area: 1/3/2/7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(60vw - 2em);
+    height: auto;
+  }
+  .img-second {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-area: 2/1/4/5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(60vw - 2em);
+    height: 100%;
+  }
+  .img-third {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 2;
+    grid-area: 2/5/3/7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    aspect-ratio: 5/3;
+  }
+  .inspo {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 2;
+    grid-area: 3/5/4/7;
+    width: 30vw;
+    height: 30vw;
+    background-color: var(--almost-black);
+    color: var(--white);
+  }
+  .inspo .heading,
+  .your-day .heading {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 60px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 0rem 7rem 1rem 0rem;
+    padding: 2rem 0rem 1rem 2rem;
+    text-align: left;
+  }
+  .inspo .copy,
+  .your-day .copy {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0rem 1rem 0rem 0rem;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  footer {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    bottom: 0;
+    background-color: var(--almost-black);
+    color: white;
+    gap: 2rem 2rem;
+    padding: 5rem 0;
+  }
+  .footer-title {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1/1/2/2;
+    width: calc(20vw - 2em);
+    padding: 0 5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-info {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 1/2/2/3;
+    padding: 0 2em;
+    width: calc(50vw - 4em);
+  }
+  .social-icons {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-area: 1/3/2/4;
+    width: calc(20vw - 2em);
+    top: 0;
+    right: 0;
+    text-align: right;
+  }
+  .icon {
+    padding: 0.25rem;
   }
 }
+/*# sourceMappingURL=App.css.map */

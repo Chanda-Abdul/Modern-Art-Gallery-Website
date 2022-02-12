@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  /* color palette */
+  --gold: hsl(24, 56%, 63%);
+  --almost-black: hsl(0, 0%, 8%);
+  --almost-grey: hsl(0, 0%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* fonts */
+body {
+  color: --almost-black;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 96px;
+  line-height: 88px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+.btn-right {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 0.4em 1em 0.5em 1em;
+  margin: 10px 0;
+  color: var(--white);
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(80%, var(--almost-black)), color-stop(20%, var(--gold)));
+  background-image: linear-gradient(to right, var(--almost-black) 80%, var(--gold) 20%);
+}
+
+.btn-right:hover {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 0.4em 1em 0.5em 1em;
+  margin: 10px 0;
+  color: var(--white);
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(80%, var(--gold)), color-stop(20%, var(--almost-black)));
+  background-image: linear-gradient(to right, var(--gold) 80%, var(--almost-black) 20%);
+}
+
+.btn-left {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 0.4em 1em 0.5em 1em;
+  margin: 10px 0;
+  color: var(--white);
+  border: none;
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(80%, var(--almost-black)), color-stop(20%, var(--gold)));
+  background-image: linear-gradient(to left, var(--almost-black) 80%, var(--gold) 20%);
+}
+
+.btn-left:hover {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 0.4em 1em 0.5em 1em;
+  margin: 10px 0;
+  color: var(--white);
+  border: none;
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(80%, var(--gold)), color-stop(20%, var(--almost-black)));
+  background-image: linear-gradient(to left, var(--gold) 80%, var(--almost-black) 20%);
+}
+
+.btn-left {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 0.4em 1em 0.5em 1em;
+  margin: 10px 0;
+  color: var(--white);
+  border: none;
+}
+
+.btn-left:hover {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 0.4em 1em 0.5em 1em;
+  margin: 10px 0;
+  color: var(--white);
+  border: none;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 25vh;
+}
+
+/* mobile */
+picture.hero img {
+  width: auto;
+  height: 25vh;
+  aspect-ratio: 1;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+  .banner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -ms-grid-rows: 100vh;
+        grid-template-rows: 100vh;
+    -webkit-column-gap: 0;
+            column-gap: 0;
+    row-gap: 0;
+    z-index: 1;
+  }
+  .hero-left {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    background-color: var(--almost-black);
+    color: var(--white);
+    z-index: 2;
+  }
+  .hero-mid {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    background-image: url("./assets/tablet/image-hero.jpg");
+    background-position: center;
+    height: 100%;
+    z-index: 1;
+  }
+  .hero-right {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    background-color: var(--white);
+  }
+  .hero-title {
+    position: absolute;
+    top: 20%;
+    color: var(--white);
+    left: 10%;
+    width: 40%;
+    mix-blend-mode: difference;
+    z-index: 3;
+  }
+  .hero-byline {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    position: absolute;
+    margin: 0;
+    padding: 0 2rem 2rem 2rem;
+    top: 20%;
+    left: 55%;
+    width: 40%;
+    z-index: 3;
+  }
+  .hero-byline p {
+    padding: 0 5rem 2rem 0;
+  }
+  .info-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto auto;
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+    margin: 5em 5em 2em 5em;
+    gap: 2em 2em;
+  }
+  .your-day {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 1/1/2/3;
+    width: 30vw;
+    height: 30vw;
+  }
+  .img-first {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 4;
+    grid-area: 1/3/2/7;
+    background-image: url("./assets/desktop/image-grid-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(60vw - 2em);
+    height: auto;
+  }
+  .img-second {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-area: 2/1/4/5;
+    background-image: url("./assets/desktop/image-grid-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(60vw - 2em);
+    height: 100%;
+  }
+  .img-third {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 2;
+    grid-area: 2/5/3/7;
+    background-image: url("./assets/desktop/image-grid-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    aspect-ratio: 5/3;
+  }
+  .inspo {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 2;
+    grid-area: 3/5/4/7;
+    width: 30vw;
+    height: 30vw;
+    background-color: var(--almost-black);
+    color: var(--white);
+  }
+  .inspo .heading,
+  .your-day .heading {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 60px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 0rem 7rem 1rem 0rem;
+    padding: 2rem 0rem 1rem 2rem;
+    text-align: left;
+  }
+  .inspo .copy,
+  .your-day .copy {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0rem 1rem 0rem 0rem;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  footer {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    bottom: 0;
+    background-color: var(--almost-black);
+    color: white;
+    gap: 2rem 2rem;
+    padding: 5rem 0;
+  }
+  .footer-title {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1/1/2/2;
+    width: calc(20vw - 2em);
+    padding: 0 5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-info {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 1/2/2/3;
+    padding: 0 2em;
+    width: calc(50vw - 4em);
+  }
+  .social-icons {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-area: 1/3/2/4;
+    width: calc(20vw - 2em);
+    top: 0;
+    right: 0;
+    text-align: right;
+  }
+  .icon {
+    padding: .25rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
