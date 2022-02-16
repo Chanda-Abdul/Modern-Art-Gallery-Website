@@ -1,36 +1,33 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import Inspo from "./components/Inspo";
-import Intro from "./components/Intro";
-import YourDay from "./components/YourDay";
+import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
+import GlobalStyles from "./components/styles/Global";
+import Home from "./components/Home";
 import "./App.css";
-import Footer from "./components/Footer";
 import Location from "./components/Location";
+
+const theme = {
+  colors: {
+    // header: "#ebfbff",
+    // body: "#fff",
+    // footer: "#003333",
+  },
+  mobile: "375px",
+};
 
 function App() {
   return (
-    <>
+    <ThemeProvider theme={theme}> <>
+    <GlobalStyles/>
       <Router>
         <Routes>
-          <Route
-            path="/"
-            element={
-              <div>
-                <Intro />
-                <YourDay />
-                <Inspo />
-                <Footer/>
-              </div>
-            }
-          />
-          <Route exact path="/location" element={<Location/>} />
+          <Route path="/" element={<Home />} />
+          <Route exact path="/location" element={<Location />} />
         </Routes>
       </Router>
-      <div>
-        
-      </div>
     </>
+    </ThemeProvider>
+   
   );
 }
 

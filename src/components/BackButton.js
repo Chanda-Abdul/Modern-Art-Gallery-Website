@@ -1,15 +1,15 @@
 import React from "react";
-import arrowLeft from "../images/icon-arrow-left.svg";
+import {ButtonStyled} from "./styles/Button.styled"
 
 const BackButton = () => {
   return (
-    <button className="btn-left home-btn">
+    <ButtonStyled bgtext='var(--gold)' bgarrow='var(--almost-black)' className="home-btn">
+    
      <span className="btn-arrow">
-        <img src={arrowLeft} alt="icon-arrow-left" /> 
+        <img src="./images/icon-arrow-left.svg" alt="icon-arrow-left" /> 
       </span>
        <span className="btn-title">Back to Home</span>
-      
-    </button>
+       </ButtonStyled>
   );
 };
 

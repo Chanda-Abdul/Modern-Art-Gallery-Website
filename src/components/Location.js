@@ -1,11 +1,13 @@
 import React from "react";
 import Map from "./Map";
 import Footer from "./Footer";
+import { Flex } from "./styles/Flex.styled";
 
 const Location = () => {
   return (
     <div>
       <Map />
+      
       <div className="location-text">
         <h2> Our location</h2>
 
@@ -24,7 +26,7 @@ const Location = () => {
           seven days a week from 8am to 9pm.
         </p>
       </div>
-      <Footer className="orange" />
+      <Footer  bgcolor="var(--gold)" color="var(--almost-black)"/>
     </div>
   );
 };

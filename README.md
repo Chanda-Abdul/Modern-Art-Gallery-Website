@@ -9,6 +9,14 @@ This is a solution to the [Frontend Mentor](https://www.frontendmentor.io) chall
 ## Link to deployed Site
 [Modern Art Gallery](https://friendly-benz-de5b74.netlify.app/)
 
+
+## To-Do
+- [ ] Add Button Link Functionality
+- [ ] Hero Image Position
+- [ ] Footer Social Icon SVG Color
+- [ ] Add Desktop Styles
+- [ ] Tablet Styles
+
 ## Table of contents
 
 - [Overview](#overview)

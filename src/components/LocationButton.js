@@ -1,14 +1,15 @@
 import React from "react";
-import arrowRight from "../images/icon-arrow-right.svg";
 
-const LocationButton = () => {
+import { ButtonStyled } from "./styles/Button.styled";
+
+function LocationButton() {
   return (
-    <button className="btn-right">
+    <ButtonStyled bgtext='var(--almost-black)' bgarrow='var(--gold)'>
       <span className="btn-title">Our Location</span>
       <span className="btn-arrow">
-        <img src={arrowRight} alt="icon-arrow-right" /> 
+        <img src="./images/icon-arrow-right.svg" alt="icon-arrow-right" /> 
       </span>
-    </button>
+      </ButtonStyled>
   );
 };
 

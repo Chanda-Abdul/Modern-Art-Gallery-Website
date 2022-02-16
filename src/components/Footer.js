@@ -1,11 +1,11 @@
 import React from "react";
-import facebook from "../images/icon-facebook.svg";
-import instagram from "../images/icon-instagram.svg";
-// import pic from '../images/'
-import twitter from "../images/icon-twitter.svg";
+import { Flex } from "./styles/Flex.styled";
+import { FooterStyled } from "./styles/Footer.styled";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
+    <FooterStyled bgcolor={props.bgcolor} color={props.color}>
+      <Flex>
     <footer>
       <h4>Modern Art Gallery</h4>
       <p class="contact-info">
@@ -14,17 +14,19 @@ const Footer = () => {
       </p>
 
       <div class="social-icons">
-        <a href="www.facebook.com" class="footer-social-icons">
-          <img src={facebook} alt="facebook-icon" />
+        <a href="https://www.facebook.com" class="footer-social-icons">
+          <img src="./images/icon-facebook.svg" alt="facebook-icon" currentColor={props.color} />
         </a>
-        <a href="www.instagram.com" class="footer-social-icons">
-          <img src={instagram} alt="instagram-icon" />
+        <a href="https://www.instagram.com" class="footer-social-icons">
+          <img src="./images/icon-instagram.svg" alt="instagram-icon" currentColor={props.color} />
         </a>
-        <a href="www.twitter.com" class="footer-social-icons">
-          <img src={twitter} alt="twitter-icon" />
+        <a href="https://www.twitter.com" class="footer-social-icons">
+          <img src="./images/icon-twitter.svg" alt="twitter-icon" currentColor={props.color}/>
         </a>
       </div>
     </footer>
+    </Flex>
+    </FooterStyled>
   );
 };
 

@@ -5,7 +5,6 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
 
-
 :root {
   /* color palette */
   --gold: hsl(24, 56%, 63%);
@@ -57,124 +56,103 @@
 //   color: --almost-black;
 // }
 
-//   buttons
-@mixin button {
-  @include body-s;
-  display: flex;
-  flex: row;
-  justify-content: center;
-  align-items: center;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: fit-content;
-  height: 3rem;
-  overflow: hidden;
-  margin: 1rem 1rem;
-  color: var(--white);
-  border: none;
-  // margin: 1rem 1rem 4rem 1rem;
-}
+// //   buttons
+// @mixin button {
+//   @include body-s;
+//   display: flex;
+//   flex: row;
+//   justify-content: center;
+//   align-items: center;
+//   outline: none;
+//   text-align: center;
+//   text-decoration: none;
+//   text-transform: uppercase;
+//   width: fit-content;
+//   height: 3rem;
+//   overflow: hidden;
+//   margin: 1rem 1rem;
+//   color: var(--white);
+//   border: none;
+//   // margin: 1rem 1rem 4rem 1rem;
+// }
 
-.btn-right,
-.btn-right:hover {
-  @include button;
-  // height: 4rem;
- 
-}
-
-.btn-right .btn-title {
-  width: fit-content;
-  margin: 0;
-  padding: 2rem 2rem;
-  background-color: var(--almost-black);
-}
-
-.btn-right .btn-arrow {
-  background-color: var(--gold);
-  // width: fit-content;
-  align-items: center;
-  // margin: 1rem;
-  padding: 1rem;
-  color: var(--white);
-}
-
-.btn-right:hover .btn-title {
-  background-color: var(--gold);
-}
-
-.btn-right.btn-right:hover .btn-arrow {
-  background-color: var(--black);
-}
-
-.btn-right:hover {
-  @include button;
-  background-image: linear-gradient(
-    to right,
-    var(--gold) 80%,
-    var(--almost-black) 20%
-  );
-}
-
-.btn-left {
-  @include button;
-  background-image: linear-gradient(
-    to left,
-    var(--almost-black) 80%,
-    var(--gold) 20%
-  );
-}
-
-.btn-left:hover {
-  @include button;
-  background-image: linear-gradient(
-    to left,
-    var(--gold) 80%,
-    var(--almost-black) 20%
-  );
-}
-.btn-left {
-  @include button;
-}
-
-.btn-left:hover {
-  @include button;
-}
-
-/* mobile */
-picture.hero img {
-  width: 100vw;
-}
-
-.hero-title {
-  @include heading-l;
-  color: var(--almost-black);
-  margin: 2rem 1rem;
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: baseline;
-}
-
-.byline-copy {
-  @include body-s;
-  margin: 1rem 1rem;
-  padding: 0 3rem 0rem 0;
-  width: auto;
-}
-
-// .location-button {
-//   padding: 5rem 5rem;
+// .btn-right,
+// .btn-right:hover {
+//   @include button;
+//   // height: 4rem;
 
 // }
 
-.your-day, .inspo {
-  display: flex;
-  flex-direction: column;
-  padding: 5vw;
+// .btn-right .btn-title {
+//   width: fit-content;
+//   margin: 0;
+//   padding: 2rem 2rem;
+//   background-color: var(--almost-black);
+// }
+
+// .btn-right .btn-arrow {
+//   background-color: var(--gold);
+//   // width: fit-content;
+//   align-items: center;
+//   // margin: 1rem;
+//   padding: 1rem;
+//   color: var(--white);
+// }
+
+// .btn-right:hover .btn-title {
+//   background-color: var(--gold);
+// }
+
+// .btn-right.btn-right:hover .btn-arrow {
+//   background-color: var(--black);
+// }
+
+// .btn-right:hover {
+//   @include button;
+//   background-image: linear-gradient(
+//     to right,
+//     var(--gold) 80%,
+//     var(--almost-black) 20%
+//   );
+// }
+
+// .btn-left {
+//   @include button;
+//   background-image: linear-gradient(
+//     to left,
+//     var(--almost-black) 80%,
+//     var(--gold) 20%
+//   );
+// }
+
+// .btn-left:hover {
+//   @include button;
+//   background-image: linear-gradient(
+//     to left,
+//     var(--gold) 80%,
+//     var(--almost-black) 20%
+//   );
+// }
+
+
+
+
+/* mobile */
+
+.title {
+  @include heading-l;
+
+}
+
+.byline {
+  @include body-s;
+  margin: 1.5rem 0rem;
+}
+
+.your-day,
+.inspo {
+  margin: 1rem;
+
 }
 
 .your-day h2 {
@@ -186,10 +164,12 @@ picture.hero img {
   height: 90vw;
   width: 90vw;
 }
-.your-day p {
-  @include body-s;
-  margin: 1.5rem 0rem;
-}
+
+
+// .your-day p {
+//   @include body-s;
+//   margin: 1.5rem 0rem;
+// }
 
 .inspo-image-second-mobile {
   // height: 90vw;
@@ -202,95 +182,73 @@ picture.hero img {
   // height: 50vh;
   // aspect-ratio: 1;
   margin: 0 5vw;
-  
 }
 
-.inspo-text{
-  margin: 2.5vw 5vw 6rem 5vw;
+.inspo-text {
+  margin: 1rem 1rem 8rem 1rem;
   background-color: var(--almost-black);
-  color: var(--white);
-  padding: 2rem 1rem ;
+  padding: 1rem;
 
 }
 .inspo-text h2 {
- @include heading-m;
- padding: 1rem 0 ;
+  @include heading-m;
+  color: var(--white);
+  
 }
 
 .inspo-text p {
   @include body-s;
-
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--almost-black);
   color: var(--white);
-  margin: 0 0 0 0 ;
-  padding: 0 5vw  4rem 5vw  ;
-
+  margin: 1rem;
+  padding: 1rem;
 }
-
-
 
 footer h4 {
   @include heading-s;
-  font-size: 1.5rem;
-  line-height: 1.35rem;
-  width: 30vw;
-  padding: 1.5rem 0;
-  
-}
-footer p {
-  @include body-s();
-  font-size: 1rem;
-  line-height: 1.75rem;
-  width: 80vw;
-  padding: 1.5rem 0;
-  
 }
 
-.footer-social-icons {
-  // font-size: .5rem;
-  padding: .5rem;
-  
+footer p {
+  @include body-s;
 }
+
 
 /* location page*/
+#map { height: 180px; }
+
 
 .home-btn {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 0;
+  margin: 0 0 0 0 !important;
 }
 .locate {
   position: relative;
-  height:75vh
+  height: 75vh;
 }
-.location-text{
+.location-text {
+  position: relative;
   background-color: var(--almost-black);
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   color: var(--white);
   @include body-s;
 }
 
 .location-text h2 {
   @include heading-m;
-  // color: var(--white);
+  margin: 2rem 0rem;
+  color: var(--white);
 }
 
-.location-text ul{
+.location-text ul {
   margin: 2rem 0rem;
   list-style: none;
 }
 
-// .location-text p{
-//   @include body-s;
+.location-text p{
+  color: var(--white);
 
-// }
-
+}
 
 .location-text h4 {
   @include heading-s;
@@ -299,11 +257,9 @@ footer p {
 }
 
 .orange {
-  background-color: var(--gold) ;
+  background-color: var(--gold);
   color: var(--almost-black);
 }
-
-
 
 /* media queries */
 @media (min-width: 768px) {

@@ -15,271 +15,25 @@
 }
 
 /* fonts */
-.btn-right,
-.btn-right:hover {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row;
-          flex: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 3rem;
-  overflow: hidden;
-  margin: 1rem 1rem;
-  color: var(--white);
-  border: none;
-}
-
-.btn-right .btn-title {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0;
-  padding: 2rem 2rem;
-  background-color: var(--almost-black);
-}
-
-.btn-right .btn-arrow {
-  background-color: var(--gold);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 1rem;
-  color: var(--white);
-}
-
-.btn-right:hover .btn-title {
-  background-color: var(--gold);
-}
-
-.btn-right.btn-right:hover .btn-arrow {
-  background-color: var(--black);
-}
-
-.btn-right:hover {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row;
-          flex: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 3rem;
-  overflow: hidden;
-  margin: 1rem 1rem;
-  color: var(--white);
-  border: none;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(80%, var(--gold)), color-stop(20%, var(--almost-black)));
-  background-image: linear-gradient(to right, var(--gold) 80%, var(--almost-black) 20%);
-}
-
-.btn-left {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row;
-          flex: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 3rem;
-  overflow: hidden;
-  margin: 1rem 1rem;
-  color: var(--white);
-  border: none;
-  background-image: -webkit-gradient(linear, right top, left top, color-stop(80%, var(--almost-black)), color-stop(20%, var(--gold)));
-  background-image: linear-gradient(to left, var(--almost-black) 80%, var(--gold) 20%);
-}
-
-.btn-left:hover {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row;
-          flex: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 3rem;
-  overflow: hidden;
-  margin: 1rem 1rem;
-  color: var(--white);
-  border: none;
-  background-image: -webkit-gradient(linear, right top, left top, color-stop(80%, var(--gold)), color-stop(20%, var(--almost-black)));
-  background-image: linear-gradient(to left, var(--gold) 80%, var(--almost-black) 20%);
-}
-
-.btn-left {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row;
-          flex: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 3rem;
-  overflow: hidden;
-  margin: 1rem 1rem;
-  color: var(--white);
-  border: none;
-}
-
-.btn-left:hover {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row;
-          flex: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 3rem;
-  overflow: hidden;
-  margin: 1rem 1rem;
-  color: var(--white);
-  border: none;
-}
-
 /* mobile */
-picture.hero img {
-  width: 100vw;
-}
-
-.hero-title {
+.title {
   font-family: "Big Shoulders Display", cursive;
   font-size: 70px;
   line-height: 70px;
   text-transform: uppercase;
-  color: var(--almost-black);
-  margin: 2rem 1rem;
 }
 
-.intro {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: baseline;
-      -ms-flex-pack: baseline;
-          justify-content: baseline;
-}
-
-.byline-copy {
+.byline {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
-  margin: 1rem 1rem;
-  padding: 0 3rem 0rem 0;
-  width: auto;
+  margin: 1.5rem 0rem;
 }
 
-.your-day, .inspo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 5vw;
+.your-day,
+.inspo {
+  margin: 1rem;
 }
 
 .your-day h2 {
@@ -295,14 +49,6 @@ picture.hero img {
   width: 90vw;
 }
 
-.your-day p {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-  margin: 1.5rem 0rem;
-}
-
 .inspo-image-second-mobile {
   width: 90vw;
   margin: 5vw;
@@ -314,10 +60,9 @@ picture.hero img {
 }
 
 .inspo-text {
-  margin: 2.5vw 5vw 6rem 5vw;
+  margin: 1rem 1rem 8rem 1rem;
   background-color: var(--almost-black);
-  color: var(--white);
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
 .inspo-text h2 {
@@ -325,7 +70,7 @@ picture.hero img {
   font-size: 60px;
   line-height: 50px;
   text-transform: uppercase;
-  padding: 1rem 0;
+  color: var(--white);
 }
 
 .inspo-text p {
@@ -333,20 +78,9 @@ picture.hero img {
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
-}
-
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: var(--almost-black);
   color: var(--white);
-  margin: 0 0 0 0;
-  padding: 0 5vw  4rem 5vw;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 footer h4 {
@@ -354,10 +88,6 @@ footer h4 {
   font-size: 36px;
   line-height: 36px;
   text-transform: uppercase;
-  font-size: 1.5rem;
-  line-height: 1.35rem;
-  width: 30vw;
-  padding: 1.5rem 0;
 }
 
 footer p {
@@ -365,22 +95,18 @@ footer p {
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
-  font-size: 1rem;
-  line-height: 1.75rem;
-  width: 80vw;
-  padding: 1.5rem 0;
-}
-
-.footer-social-icons {
-  padding: .5rem;
 }
 
 /* location page*/
+#map {
+  height: 180px;
+}
+
 .home-btn {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 0;
+  margin: 0 0 0 0 !important;
 }
 
 .locate {
@@ -389,8 +115,9 @@ footer p {
 }
 
 .location-text {
+  position: relative;
   background-color: var(--almost-black);
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   color: var(--white);
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -403,11 +130,17 @@ footer p {
   font-size: 60px;
   line-height: 50px;
   text-transform: uppercase;
+  margin: 2rem 0rem;
+  color: var(--white);
 }
 
 .location-text ul {
   margin: 2rem 0rem;
   list-style: none;
+}
+
+.location-text p {
+  color: var(--white);
 }
 
 .location-text h4 {
