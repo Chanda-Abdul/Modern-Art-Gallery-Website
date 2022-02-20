@@ -1,15 +1,19 @@
 import React from "react";
+import { ContentStyled } from "./styles/Content.styled";
 import { Flex } from "./styles/Flex.styled";
 
 const YourDay = () => {
   return (
     <Flex>
+      <ContentStyled>
     <div class="your-day">
       <picture className="your-day-image">
-        <source media="(min-width:768px)" srcSet="./images/desktop/image-grid-1@2x.jpg" />
+      <source media="(min-width:1275px)" srcSet="./images/desktop/image-grid-1@2x.jpg" />
+        
+        <source media="(min-width:768px)" srcSet="./images/tablet/image-grid-1@2x.jpg" />
         <img
           src="./images/mobile/image-grid-1@2x.jpg"
-          className="your-day-image-mobile"
+          className="your-day-image"
           alt="art-gallery"
         />
       </picture>
@@ -21,6 +25,7 @@ const YourDay = () => {
         </p>
       </div>
     </div>
+    </ContentStyled>
     </Flex>
   );
 };

@@ -1,16 +1,16 @@
 import React from "react";
 import Map from "./Map";
 import Footer from "./Footer";
-import { Flex } from "./styles/Flex.styled";
+import { LocationStyled } from "./styles/Location.styled";
 
 const Location = () => {
   return (
     <div>
       <Map />
-      
+<LocationStyled>
       <div className="location-text">
         <h2> Our location</h2>
-
+        <div className="location-info">
         <ul>
           <li>
             {" "}
@@ -25,9 +25,12 @@ const Location = () => {
           King Street, the Modern Art Gallery is free to all visitors and open
           seven days a week from 8am to 9pm.
         </p>
+        </div>
       </div>
-      <Footer  bgcolor="var(--gold)" color="var(--almost-black)"/>
+      </LocationStyled>
+      <Footer bgcolor="var(--gold)" color="var(--almost-black)" />
     </div>
+    
   );
 };
 

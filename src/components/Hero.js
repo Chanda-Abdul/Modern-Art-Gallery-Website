@@ -3,20 +3,29 @@ import { HeroStyled } from "./styles/Hero.styled";
 
 const Hero = () => {
   return (
-    
-    <div>
-      <HeroStyled>
-      <picture className="hero">
-        <source media="(min-width:768px)" srcSet="./images/desktop/image-hero.jpg" />
-        <img
-          src="./images/desktop/image-hero.jpg"
-          className="hero-mobile"
-          alt="hero"
-        />
-      </picture>
-      </HeroStyled>
+    <HeroStyled>
+      <div className="desktop-hero-add">
       </div>
-  
+      <div >
+        <picture className="hero">
+          <source
+            media="(min-width:900px)"
+            srcSet="./images/desktop/image-hero.jpg"
+            className="hero"
+          />
+          <source
+            media="(min-width:675px)"
+            srcSet="./images/tablet/image-hero.jpg"
+            className="hero"
+          />
+          <img
+            src="./images/mobile/image-hero.jpg"
+          
+          />
+        </picture>
+      </div>
+     
+    </HeroStyled>
   );
 };
 
