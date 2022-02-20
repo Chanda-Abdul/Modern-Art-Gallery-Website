@@ -20,7 +20,7 @@ const Hero = () => {
           />
           <img
             src="./images/mobile/image-hero.jpg"
-          
+          alt="hero"
           />
         </picture>
       </div>

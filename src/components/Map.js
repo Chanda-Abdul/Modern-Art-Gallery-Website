@@ -12,13 +12,13 @@ const locationMarker = new Icon({
   iconSize: [50, 75],
 });
 
-// const dot = new Icon(<FaCircle />);
+
 export default function Map() {
   return (
     <>
       <MapStyled>
         <div className="locate">
-          {/* <div id="map"> */}
+          
 
           <MapContainer
             center={center}
@@ -40,7 +40,9 @@ export default function Map() {
                 permanent
                 className={"shape-tooltip"}
                 bringToBack={true}
+                // eslint-disable-next-line 
                 className={"popup"}
+                
               >
                 <FaCircle color={"var(--gold)"} />
               </Tooltip>

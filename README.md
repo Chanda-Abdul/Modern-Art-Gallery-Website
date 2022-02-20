@@ -11,11 +11,11 @@ This is a solution to the [Frontend Mentor](https://www.frontendmentor.io) chall
 
 
 ## To-Do
-- [ ] Add Button Link Functionality
+- [x] Add Button Link Functionality
 - [ ] Hero Image Position
-- [ ] Footer Social Icon SVG Color
+- [x] Footer Social Icon SVG Color
 - [ ] Add Desktop Styles
-- [ ] Tablet Styles
+- [x] Tablet Styles
 
 ## Table of contents
 
