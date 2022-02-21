@@ -20,16 +20,16 @@ export const IntroStyled = styled.div`
     .intro {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: start;
       width: 90%;
       position: absolute;
-      padding: 5rem 5rem;
+      padding: 5rem 0 5rem 11rem;
       left: 0%;
     }
 
     h1 {
-      width: 30%;
+      width: 40%;
       height: auto;
       color: var(--white);
       mix-blend-mode: difference;
@@ -40,7 +40,7 @@ export const IntroStyled = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      width: 30%;
+      width: 40%;
       height: auto;
     }
   }

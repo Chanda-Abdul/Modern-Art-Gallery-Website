@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const MapStyled = styled.div`
 #map { 
-    height: 180px;
+    height: 75vh;
  }
- 
+
 .locate {
   position: relative;
   height: 75vh;

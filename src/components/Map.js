@@ -20,7 +20,7 @@ export default function Map() {
           <MapContainer
             center={center}
             zoom={15}
-            style={{ width: "100vw", height: "90vh" }}
+            style={{ width: "100vw", height: "75vh" }}
           >
             <TileLayer
               url="https://api.maptiler.com/maps/basic/256/{z}/{x}/{y}.png?key=mrILtE5hUPiIQN3qw4A0"

@@ -1,4 +1,4 @@
-# Frontend Mentor - [Modern Art Gallery website solution](https://www.frontendmentor.io/challenges/art-gallery-website)
+# Frontend Mentor - [Modern Art Gallery Website Solution](https://www.frontendmentor.io/challenges/art-gallery-website)
 
 ![Design preview for the Art gallery website solution coding challenge](./screens/preview.jpg)
 
@@ -28,22 +28,42 @@ I built this project to practice my react skills.
   - [x] Mobile First
   - [x] Tablet
   - [x] Desktop
-- See hover states for all interactive elements throughout the site
+- [ ] See hover states for all interactive elements throughout the site
   - [x] Buttons
   - [ ] Social Media Icons
 - [x] **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
 
 ### Screenshot
 
-![](./screenshot.jpg)
+### Mobile
+#### `<Home/>`
+![](./screens/mobile1-1.png)
+![](./screens/mobile1-2.png)
+![](./screens/mobile1-3.png)
+![](./screens/mobile1-4.png)
+![](./screens/mobile1-5.png)
+#### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
+![](./screens/mobile2-1.png)
+![](./screens/mobile2-2.png)
+![](./screens/mobile2-3.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+### Tablet
+![](./screens/tablet1.png)
+![](./screens/tablet2.png)
+![](./screens/tablet3.png)
+![](./screens/tablet4.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+### Desktop
+#### `<Home/>`
+![](./screens/desktop1.png)
+![](./screens/desktop2.png)
+![](./screens/desktop3.png)
+![](./screens/desktop4.png)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+#### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
+![](./screens/desktop5.png)
+![](./screens/desktop6.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 

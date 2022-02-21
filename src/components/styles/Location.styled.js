@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
 export const LocationStyled = styled.div`
+#map { 
+  height: 75vh;
+}
+
+.locate {
+position: relative;
+height: 75vh;
+}
   .location-text {
     position: relative;
     background-color: var(--almost-black);

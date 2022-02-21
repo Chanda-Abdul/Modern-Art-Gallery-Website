@@ -4,9 +4,9 @@ export const FooterStyled = styled.footer`
   background-color: ${({ bgcolor }) => bgcolor || "var(--almost-black)"};
   color: ${({ color }) => color || "var(--white)"};
   width: 100vw;
-  height: auto;
   margin: 0 0;
   padding: 5rem 2rem 5rem 2rem;
+  bottom: 0;
 
   & h2 {
     color: ${({ color }) => color || "var(--white)"};
@@ -41,21 +41,25 @@ export const FooterStyled = styled.footer`
   @media (min-width: ${({ theme }) => theme.tablet}) {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
+      align-items: start;
+      margin:0;
     
     & h2 {
-      width: 15%;
-      padding: 1rem 1rem 1rem 1rem;
+      width: 20%;
+      padding: 0 1rem;
+      
     }
 
     & p {
-      width: 40vw;
-      padding: 1rem 1rem 1rem 1rem;
+      width: 40%;
+      padding: 0 1rem;
+      margin-top:0;
     }
 
     & .social-icons {
       width: 20vw;
-      padding: 1rem 1rem 1rem 1rem;
+      padding: 0 1rem;
     }
     .footer-social-icons {
       padding: 0 0 0 1rem;
