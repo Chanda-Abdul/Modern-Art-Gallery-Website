@@ -40,33 +40,33 @@ I built this project to practice my <b>React</b> skills.
 
 <!-- #### Mobile
 ##### `<Home/>`
-![](./screens/mobile1-1.png)
-![](./screens/mobile1-2.png)
-![](./screens/mobile1-3.png)
-![](./screens/mobile1-4.png)
-![](./screens/mobile1-5.png)
+<img src="./screens/mobile1-1.png" alt="" width="200"/>
+<img src="./screens/mobile1-2.png" alt="" width="200"/>
+<img src="./screens/mobile1-3.png" alt="" width="200"/>
+<img src="./screens/mobile1-4.png" alt="" width="200"/>
+<img src="./screens/mobile1-5.png" alt="" width="200"/>
 ##### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
-![](./screens/mobile2-1.png)
-![](./screens/mobile2-2.png)
-![](./screens/mobile2-3.png) -->
+<img src="./screens/mobile2-1.png" alt="" width="200"/>
+<img src="./screens/mobile2-2.png" alt="" width="200"/>
+<img src="./screens/mobile2-3.png" alt="" width="200"/> -->
 
 <!-- #### Tablet
-![](./screens/tablet1.png)
-![](./screens/tablet2.png)
-![](./screens/tablet3.png)
-![](./screens/tablet4.png) -->
+<img src="./screens/tablet1.png" alt="" width="200"/>
+<img src="./screens/tablet2.png" alt="" width="200"/>
+<img src="./screens/tablet3.png" alt="" width="200"/>
+<img src="./screens/tablet4.png" alt="" width="200"/> -->
 
 ### `<Home/>`
 
-![](./screens/desktop1.png)
-![](./screens/desktop2.png)
-![](./screens/desktop3.png)
-![](./screens/desktop4.png)
+<img src="./screens/desktop1.png" alt="" width="200"/>
+<img src="./screens/desktop2.png" alt="" width="200"/>
+<img src="./screens/desktop3.png" alt="" width="200"/>
+<img src="./screens/desktop4.png" alt="" width="200"/>
 
 ### `<Location/>` with [Leaflet JS](https://leafletjs.com/) Map
 
-![](./screens/desktop5.png)
-![](./screens/desktop6.png)
+<img src="./screens/desktop5.png" alt="" width="200"/>
+<img src="./screens/desktop6.png" alt="" width="200"/>
 
 ## Links
 
@@ -113,13 +113,13 @@ I built this project to practice my <b>React</b> skills.
     color || "var(--white)"};
   ````
   - `<Footer/>` in the `<Home/>` component
-  ![](./screens/mobile1-5.png)
+  <img src="./screens/mobile1-5.png" alt="" width="200"/>
   - `<Footer/>` in the `<Location/>` component
-  ![](./screens/mobile2-3.png)
+  <img src="./screens/mobile2-3.png" alt="" width="200"/>
 - This is also one of the first projects where I used <b>Sass</b>. Sass is great, because I created resuable variables for fonts, colors, etc.
 
   - The given <b>Figma</b> specs for colors
-    ![](./screens/colors.png)
+    <img src="./screens/colors.png" alt="" width="200"/>
   - And the <b>Sass/CSS</b> I came up with
 
     ````
@@ -140,7 +140,7 @@ I built this project to practice my <b>React</b> skills.
     ````
 
   - The given <b>Figma</b> specs for fonts
-    ![](./screens/fonts.png)
+    <img src="./screens/fonts.png" alt="" width="200"/>
   - And the <b>Sass/CSS</b> I came up with
 
     ````
@@ -189,9 +189,9 @@ I built this project to practice my <b>React</b> skills.
     ````
 - I also played around with active states and stylings for the `<Button/>` 
   - Inactive
-  ![](./screens/button1.png)
+  <img src="./screens/button1.png" alt="" width="200"/>
   - Active
-  ![](./screens/button2.png)
+  <img src="./screens/button2.png" alt="" width="200"/>
 
 ### Continued development
 
