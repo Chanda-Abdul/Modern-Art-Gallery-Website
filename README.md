@@ -6,7 +6,7 @@
 
 This is a solution to the [Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Modern Art Gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-I built this project to practice my react skills.
+I built this project to practice my <b>React</b> skills.
 
 ## Table of contents
 
@@ -70,26 +70,26 @@ I built this project to practice my react skills.
 
 ## Links
 
-- Solution URL: [View Solution here](https://www.frontendmentor.io/solutions/modern-art-gallery-w-react-styled-components-leafletjs-and-sass-siAf_gMZ8)
-- Live Site URL: [View live site here](https://friendly-benz-de5b74.netlify.app/)
+- <b>Solution URL:</b> [View Solution here](https://www.frontendmentor.io/solutions/modern-art-gallery-w-react-styled-components-leafletjs-and-sass-siAf_gMZ8)
+- <b>Live Site URL:</b> [View live site here](https://friendly-benz-de5b74.netlify.app/)
 
 ## My process
 
 ### Built with
 
-- [React](https://reactjs.org/) - JavaScript Framework
-- [React Styled Components](https://styled-components.com/) - For styles
-- [Leaflet JS](https://leafletjs.com/) - Interactive Map Library
-- Sass/CSS
-- Flexbox
-- Mobile-first workflow
+- <b>[React](https://reactjs.org/)</b> - JavaScript Framework
+- <b>[React Styled Components](https://styled-components.com/)</b> - For styles
+- <b>[Leaflet JS](https://leafletjs.com/)</b> - Interactive Map Library
+- <b>Sass/CSS</b>
+- <b>Flexbox</b>
+- <b>Mobile-first workflow</b>
 
 ### What I learned
 
-- This is my first project using [React Styled Components](https://styled-components.com/). I started building this project, and once I got to the `<Footer/>` I realized that the footer `background-color` and the font `color` would change depending on which page is being rendered.  So I did some research and <b>Style Components</b> turned out to be a great solution for this issue. Overall, I really enjoyed working with <b>Styled Components</b> because they helped me organize my CSS styles, and incorporate responsiveness
-  - Sending `background-color` and the font `color` to the `<Footer/>` using `props`
+- This is my first project using [React Styled Components](https://styled-components.com/). I started building this project, and once I came to the `<Footer/>` I realized that the `background-color` and the font `color` of the footer would change depending on which page is being rendered.  So I did some research and <b>Styled Components</b> turned out to be a great solution for this issue. Overall, I really enjoyed working with <b>Styled Components</b> because they helped me organize my CSS styles, and quickly incorporate responsiveness.
+  - Sending `background-color` and the font `color` to the `<Footer/>` using `props`. Also, figuring out how to conditionally change the color of an `<svg/>` with `props` was extremely challenging.
   
-  in the footer
+  - in `<Footer/>`
   ````
   <FooterStyled
       bgcolor={props.bgcolor}
@@ -97,15 +97,25 @@ I built this project to practice my react skills.
       activecolor={props.activeColor}
     >
   ````
-  in the parent component
+  - in the parent component
   ````
-  <Footer bgcolor="var(--almost-black)" color="var(--white)" activeColor="var(--gold)"/>
+  <Footer 
+    bgcolor="var(--almost-black)" 
+    color="var(--white)" 
+    activeColor="var(--gold)"
+  />
   ````
-  and the styled component
+  - and the styled component
   ````
-  background-color: ${({ bgcolor }) => bgcolor || "var(--almost-black)"};
-  color: ${({ color }) => color || "var(--white)"};
+  background-color: ${({ bgcolor }) => 
+    bgcolor || "var(--almost-black)"};
+  color: ${({ color }) => 
+    color || "var(--white)"};
   ````
+  - `<Footer/>` in the `<Home/>` component
+  ![](./screens/mobile1-5.png)
+  - `<Footer/>` in the `<Location/>` component
+  ![](./screens/mobile2-3.png)
 - This is also one of the first projects where I used <b>Sass</b>. Sass is great, because I created resuable variables for fonts, colors, etc.
 
   - The given <b>Figma</b> specs for colors
@@ -177,37 +187,20 @@ I built this project to practice my react skills.
     @include heading-m;
     }
     ````
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-````
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- I also played around with active states and stylings for the `<Button/>` 
+  - Inactive
+  ![](./screens/button1.png)
+  - Active
+  ![](./screens/button2.png)
 
 ### Continued development
 
-I would like to Review Social Media Icon active state color change. Maybe add some additional pages.
+I would like to review the Social Media Icon active state color changes, they don't seem to be working at the moment. Maybe add some additional pages.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [StackOverflow](https://stackoverflow.com/) - This project would not be possible without <b>StackOverflow</b> 🤣.
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) - MDN was a great reasource for whatever CSS issues I encountered.
 
 ## Author
 
