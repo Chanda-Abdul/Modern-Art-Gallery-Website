@@ -22,14 +22,14 @@ export const IntroStyled = styled.div`
       flex-direction: row;
       justify-content: space-around;
       align-items: start;
-      width: 100vw;
+      width: 90%;
       position: absolute;
       padding: 5rem 5rem;
       left: 0%;
     }
 
     h1 {
-      width: 25vw;
+      width: 30%;
       height: auto;
       color: var(--white);
       mix-blend-mode: difference;
@@ -40,7 +40,7 @@ export const IntroStyled = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      width: 25vw;
+      width: 30%;
       height: auto;
     }
   }

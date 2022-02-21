@@ -6,7 +6,7 @@ export const FooterStyled = styled.footer`
   width: 100vw;
   height: auto;
   margin: 0 0;
-  padding: 5rem 2rem 5rem 1rem;
+  padding: 5rem 2rem 5rem 2rem;
 
   & h2 {
     color: ${({ color }) => color || "var(--white)"};
@@ -39,18 +39,17 @@ export const FooterStyled = styled.footer`
   }
 
   @media (min-width: ${({ theme }) => theme.tablet}) {
-    
       display: flex;
       flex-direction: row;
       justify-content: space-between;
     
     & h2 {
-      width: 20vw;
+      width: 15%;
       padding: 1rem 1rem 1rem 1rem;
     }
 
     & p {
-      width: 50vw;
+      width: 40vw;
       padding: 1rem 1rem 1rem 1rem;
     }
 
