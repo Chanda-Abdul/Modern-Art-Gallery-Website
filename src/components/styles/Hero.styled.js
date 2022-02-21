@@ -18,23 +18,29 @@ export const HeroStyled = styled.div`
     .desktop-hero {
       position: absolute;
       width: 100vw;
-      height: 800px;
+      min-height:800px;
+      max-height: 800px;
+      overflow: hidden;
     }
     .desktop-hero-left {
       position: absolute;
       top: 0;
       left: 0;
       width: 50vw;
-      height: 800px;
+      min-height:800px;
+      max-height: 800px;
       background-color: var(--almost-black);
+      overflow: hidden;
     }
     .desktop-hero-right {
       position: absolute;
       top: 0;
       right: 0;
       width: 50vw;
-      height: 800px;
+      min-height:800px;
+      max-height: 800px;
       background-color: var(--white);
+      overflow: hidden;
     }
 
     picture {
@@ -43,7 +49,8 @@ export const HeroStyled = styled.div`
       left: 25vw;
       width: 50vw;
       overflow: hidden;
-      height: 100vh;
+      min-height:800px;
+      max-height: 800px;
     }
   }
 `;
