@@ -3,7 +3,8 @@
 ![Design preview for the Art gallery website solution coding challenge](./screens/preview.jpg)
 
 ## Summary
-This is a solution to the [Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Modern Art Gallery  website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website).  Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+This is a solution to the [Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Modern Art Gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 I built this project to practice my react skills.
 
@@ -34,7 +35,9 @@ I built this project to practice my react skills.
 - [x] **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
 
 ## Screenshots
-- Desktop
+
+### Desktop
+
 <!-- #### Mobile
 ##### `<Home/>`
 ![](./screens/mobile1-1.png)
@@ -53,13 +56,15 @@ I built this project to practice my react skills.
 ![](./screens/tablet3.png)
 ![](./screens/tablet4.png) -->
 
-#### `<Home/>`
+### `<Home/>`
+
 ![](./screens/desktop1.png)
 ![](./screens/desktop2.png)
 ![](./screens/desktop3.png)
 ![](./screens/desktop4.png)
 
-#### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
+### `<Location/>` with [Leaflet JS](https://leafletjs.com/) Map
+
 ![](./screens/desktop5.png)
 ![](./screens/desktop6.png)
 
@@ -73,30 +78,98 @@ I built this project to practice my react skills.
 ### Built with
 
 - [React](https://reactjs.org/) - JavaScript Framework
-- [Styled Components](https://styled-components.com/) - For styles
-- [Leaflet JS](https://leafletjs.com/) Map
+- [React Styled Components](https://styled-components.com/) - For styles
+- [Leaflet JS](https://leafletjs.com/) - Interactive Map Library
 - Sass/CSS
 - Flexbox
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- This is my first project using [React Styled Components](https://styled-components.com/). I really enjoyed working with [React Styled Components](https://styled-components.com/) because they helped me organize my CSS styles, and incorporate responsiveness
+- This is also one of the first projects where I used Sass. Sass is great, because I created resuable variables for fonts, colors, etc.
 
-To see how you can add code snippets, see below:
+  - The given <b>Figma</b> specs for colors
+    ![](./screens/colors.png)
+  - And the Sass/CSS I came up with
+
+  ```
+  :root {
+  /* color palette */
+  --gold: hsl(24, 56%, 63%);
+  --almost-black: hsl(0, 0%, 8%);
+  --almost-grey: hsl(0, 0%, 27%);
+  --white: hsl(0, 0%, 100%);
+  }
+  ```
+
+  - The given <b>Figma</b> specs for fonts
+    ![](./screens/fonts.png)
+  - And the Sass/CSS I came up with
+
+  ```
+
+  ```
+
+/_ fonts _/
+@mixin heading-xl {
+font-family: "Big Shoulders Display", cursive;
+font-size: 96px;
+line-height: 88px;
+text-transform: uppercase;
+}
+@mixin heading-l {
+font-family: "Big Shoulders Display", cursive;
+font-size: 70px;
+line-height: 70px;
+text-transform: uppercase;
+}
+@mixin heading-m {
+font-family: "Big Shoulders Display", cursive;
+font-size: 60px;
+line-height: 50px;
+text-transform: uppercase;
+}
+@mixin heading-s {
+font-family: "Big Shoulders Display", cursive;
+font-size: 36px;
+line-height: 36px;
+text-transform: uppercase;
+}
+@mixin body-m {
+font-family: "Outfit", sans-serif;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+}
+@mixin body-s {
+font-family: "Outfit", sans-serif;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+}
+
+/_ mobile _/
+.title {
+@include heading-m;
+}
+
+````
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
-```
+````
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -105,8 +178,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-I would like to Review Social Media Icon active state color change.  Maybe add some additional pages.
-
+I would like to Review Social Media Icon active state color change. Maybe add some additional pages.
 
 ### Useful resources
 
@@ -120,5 +192,3 @@ I would like to Review Social Media Icon active state color change.  Maybe add s
 - Frontend Mentor - [@Chanda-Abdul](https://www.frontendmentor.io/profile/Chanda-Abdul)
 - Website - [Chanda Codes](https://chandacodes.com/)
 - GitHub - [github.com/Chanda-Abdul](https://github.com/Chanda-Abdul)
-
-
