@@ -18,14 +18,14 @@ export const HeroStyled = styled.div`
     .desktop-hero {
       position: absolute;
       width: 100vw;
-      height: 100vh;
+      height: 800px;
     }
     .desktop-hero-left {
       position: absolute;
       top: 0;
       left: 0;
       width: 50vw;
-      height: 100vh;
+      height: 800px;
       background-color: var(--almost-black);
     }
     .desktop-hero-right {
@@ -33,7 +33,7 @@ export const HeroStyled = styled.div`
       top: 0;
       right: 0;
       width: 50vw;
-      height: 100vh;
+      height: 800px;
       background-color: var(--white);
     }
 

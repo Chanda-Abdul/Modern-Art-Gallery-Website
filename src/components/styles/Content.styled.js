@@ -7,6 +7,7 @@ export const ContentStyled = styled.div`
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 95vw;
       margin: 1rem;
       padding: 1rem;
     }
@@ -21,6 +22,7 @@ export const ContentStyled = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
+      width: 95vw;
       margin: 2rem 0;
   
     }
@@ -66,6 +68,7 @@ export const ContentStyled = styled.div`
       flex-direction: row-reverse;
       justify-content: space-between;
       align-items: start;
+      width: 95vw;
       margin: 5rem 1rem 0 1rem;
     }
     .your-day-image {
@@ -80,6 +83,7 @@ export const ContentStyled = styled.div`
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      width: 95vw;
       margin: 0 1rem 6rem 1rem;
     }
 
@@ -117,7 +121,7 @@ export const ContentStyled = styled.div`
       justify-content: space-around;
       align-items: center;
       margin: 100vh 2rem 0 2rem;
-      width: 100vw;
+      width: 95vw;
       padding: 10rem 0 1rem 0;
     }
 
@@ -132,7 +136,7 @@ export const ContentStyled = styled.div`
       display: flex;
       flex-direction: row;
       justify-content: center;
-      width: 100vw;
+      width: 95vw;
       margin: 1rem 2rem 6rem 2rem;
     }
 
