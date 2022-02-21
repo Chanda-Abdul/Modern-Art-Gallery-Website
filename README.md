@@ -33,9 +33,9 @@ I built this project to practice my react skills.
   - [ ] Social Media Icons
 - [x] **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
 
-### Screenshots
+## Screenshots
 
-#### Mobile
+<!-- #### Mobile
 ##### `<Home/>`
 ![](./screens/mobile1-1.png)
 ![](./screens/mobile1-2.png)
@@ -45,26 +45,26 @@ I built this project to practice my react skills.
 ##### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
 ![](./screens/mobile2-1.png)
 ![](./screens/mobile2-2.png)
-![](./screens/mobile2-3.png)
+![](./screens/mobile2-3.png) -->
 
-#### Tablet
+<!-- #### Tablet
 ![](./screens/tablet1.png)
 ![](./screens/tablet2.png)
 ![](./screens/tablet3.png)
-![](./screens/tablet4.png)
+![](./screens/tablet4.png) -->
 
-#### Desktop
-##### `<Home/>`
+### Desktop
+#### `<Home/>`
 ![](./screens/desktop1.png)
 ![](./screens/desktop2.png)
 ![](./screens/desktop3.png)
 ![](./screens/desktop4.png)
 
-##### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
+#### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
 ![](./screens/desktop5.png)
 ![](./screens/desktop6.png)
 
-### Links
+## Links
 
 - Solution URL: [View Solution here](https://www.frontendmentor.io/solutions/modern-art-gallery-w-react-styled-components-leafletjs-and-sass-siAf_gMZ8)
 - Live Site URL: [View live site here](https://friendly-benz-de5b74.netlify.app/)
