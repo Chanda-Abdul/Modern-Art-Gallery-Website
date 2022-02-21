@@ -1,21 +1,11 @@
-# Frontend Mentor - [Art gallery website solution](https://www.frontendmentor.io/challenges/art-gallery-website)
+# Frontend Mentor - [Modern Art Gallery website solution](https://www.frontendmentor.io/challenges/art-gallery-website)
 
-![Design preview for the Sunnyside agency landing page coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/ofieenxp0c7dlmjy0voa.jpg)
-
+![Design preview for the Art gallery website solution coding challenge](./screens/preview.jpg)
 
 ## Summary
-This is a solution to the [Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website).  Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Modern Art Gallery  website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website).  Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Link to deployed Site
-[Modern Art Gallery](https://friendly-benz-de5b74.netlify.app/)
-
-
-## To-Do
-- [x] Add Button Link Functionality
-- [ ] Hero Image Position
-- [x] Footer Social Icon SVG Color
-- [ ] Add Desktop Styles
-- [x] Tablet Styles
+I built this project to practice my react skills.
 
 ## Table of contents
 
@@ -29,19 +19,19 @@ This is a solution to the [Frontend Mentor](https://www.frontendmentor.io) chall
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-### The challenge
+### Users should be able to:
 
-Users should be able to:
-
-- View the optimal layout for each page depending on their device's screen size
+- [x] View the optimal layout for each page depending on their device's screen size
+  - [x] Mobile First
+  - [x] Tablet
+  - [x] Desktop
 - See hover states for all interactive elements throughout the site
-- **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
+  - [x] Buttons
+  - [ ] Social Media Icons
+- [x] **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
 
 ### Screenshot
 
@@ -57,8 +47,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View Solution here](https://www.frontendmentor.io/solutions/modern-art-gallery-w-react-styled-components-leafletjs-and-sass-siAf_gMZ8)
+- Live Site URL: [View live site here](https://friendly-benz-de5b74.netlify.app/)
 
 ## My process
 
@@ -101,9 +91,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would like to Review Social Media Icon active state color change.  Maybe add some additional pages.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
@@ -114,14 +103,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Chanda-Abdul](https://www.frontendmentor.io/profile/Chanda-Abdul)
+- Website - [Chanda Codes](https://chandacodes.com/)
+- GitHub - [github.com/Chanda-Abdul](https://github.com/Chanda-Abdul)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
