@@ -86,7 +86,26 @@ I built this project to practice my react skills.
 
 ### What I learned
 
-- This is my first project using [React Styled Components](https://styled-components.com/). I really enjoyed working with <b>Styled Components</b> because they helped me organize my CSS styles, and incorporate responsiveness
+- This is my first project using [React Styled Components](https://styled-components.com/). I started building this project, and once I got to the `<Footer/>` I realized that the footer `background-color` and the font `color` would change depending on which page is being rendered.  So I did some research and <b>Style Components</b> turned out to be a great solution for this issue. Overall, I really enjoyed working with <b>Styled Components</b> because they helped me organize my CSS styles, and incorporate responsiveness
+  - Sending `background-color` and the font `color` to the `<Footer/>` using `props`
+  
+  in the footer
+  ````
+  <FooterStyled
+      bgcolor={props.bgcolor}
+      color={props.color}
+      activecolor={props.activeColor}
+    >
+  ````
+  in the parent component
+  ````
+  <Footer bgcolor="var(--almost-black)" color="var(--white)" activeColor="var(--gold)"/>
+  ````
+  and the styled component
+  ````
+  background-color: ${({ bgcolor }) => bgcolor || "var(--almost-black)"};
+  color: ${({ color }) => color || "var(--white)"};
+  ````
 - This is also one of the first projects where I used <b>Sass</b>. Sass is great, because I created resuable variables for fonts, colors, etc.
 
   - The given <b>Figma</b> specs for colors
@@ -101,6 +120,13 @@ I built this project to practice my react skills.
     --almost-grey: hsl(0, 0%, 27%);
     --white: hsl(0, 0%, 100%);
     }
+    ````
+    - and I included those colors in the <b>Styled Components</b> using
+    ````
+    color: var(--gold);
+    color: var(--almost-black);
+    color: var(--almost-grey);
+    color: var(--white);
     ````
 
   - The given <b>Figma</b> specs for fonts
