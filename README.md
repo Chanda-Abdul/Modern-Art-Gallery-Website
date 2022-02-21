@@ -86,12 +86,12 @@ I built this project to practice my react skills.
 
 ### What I learned
 
-- This is my first project using [React Styled Components](https://styled-components.com/). I really enjoyed working with [React Styled Components](https://styled-components.com/) because they helped me organize my CSS styles, and incorporate responsiveness
-- This is also one of the first projects where I used Sass. Sass is great, because I created resuable variables for fonts, colors, etc.
+- This is my first project using [React Styled Components](https://styled-components.com/). I really enjoyed working with <b>Styled Components</b> because they helped me organize my CSS styles, and incorporate responsiveness
+- This is also one of the first projects where I used <b>Sass</b>. Sass is great, because I created resuable variables for fonts, colors, etc.
 
   - The given <b>Figma</b> specs for colors
     ![](./screens/colors.png)
-  - And the Sass/CSS I came up with
+  - And the <b>Sass/CSS</b> I came up with
 
   ```
   :root {
@@ -105,13 +105,9 @@ I built this project to practice my react skills.
 
   - The given <b>Figma</b> specs for fonts
     ![](./screens/fonts.png)
-  - And the Sass/CSS I came up with
+  - And the <b>Sass/CSS</b> I came up with
 
-  ```
-
-  ```
-
-/_ fonts _/
+```/* fonts */
 @mixin heading-xl {
 font-family: "Big Shoulders Display", cursive;
 font-size: 96px;
@@ -149,12 +145,10 @@ font-size: 18px;
 line-height: 28px;
 }
 
-/_ mobile _/
+/* mobile */
 .title {
 @include heading-m;
-}
-
-````
+}```
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
