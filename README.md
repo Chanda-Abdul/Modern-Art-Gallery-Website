@@ -86,10 +86,10 @@ I built this project to practice my <b>React</b> skills.
 
 ### What I learned
 
-- This is my first project using [React Styled Components](https://styled-components.com/). I started building this project, and once I came to the `<Footer/>` I realized that the `background-color` and the font `color` of the footer would change depending on which page is being rendered.  So I did some research and <b>Styled Components</b> turned out to be a great solution for this issue. Overall, I really enjoyed working with <b>Styled Components</b> because they helped me organize my CSS styles, and quickly incorporate responsiveness.
-  - Sending `background-color` and the font `color` to the `<Footer/>` using `props`. Also, figuring out how to conditionally change the color of an `<svg/>` with `props` was extremely challenging.
+- This is my first project using [React Styled Components](https://styled-components.com/). I started building this project, and once I came to the `<Footer/>` I realized that the `background-color` and the font `color` of the footer would change depending on which page is being rendered.  So I did some research and <b>Styled Components</b> are a great solution for this issue. Overall, I really enjoyed working with <b>Styled Components</b> because they helped me organize my <b>CSS</b> styles, and quickly incorporate <b>responsive media queries</b>.
+  - I used `props` to send `background-color` and font `color` to the `<Footer/>`. Also, figuring out how to conditionally change the color of an `<svg/>` with `props` was extremely challenging😣.
   
-  - in `<Footer/>`
+  <b>in `<Footer/>`</b>
   ````
   <FooterStyled
       bgcolor={props.bgcolor}
@@ -97,7 +97,7 @@ I built this project to practice my <b>React</b> skills.
       activecolor={props.activeColor}
     >
   ````
-  - in the parent component
+  <b>in the parent component</b>
   ````
   <Footer 
     bgcolor="var(--almost-black)" 
@@ -105,7 +105,7 @@ I built this project to practice my <b>React</b> skills.
     activeColor="var(--gold)"
   />
   ````
-  - and the styled component
+  <b>and the styled component</b>
   ````
   background-color: ${({ bgcolor }) => 
     bgcolor || "var(--almost-black)"};
