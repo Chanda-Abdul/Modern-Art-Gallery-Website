@@ -58,15 +58,15 @@ I built this project to practice my <b>React</b> skills.
 
 ### `<Home/>`
 
-<img src="./screens/desktop1.png" alt="" width="200"/>
-<img src="./screens/desktop2.png" alt="" width="200"/>
-<img src="./screens/desktop3.png" alt="" width="200"/>
-<img src="./screens/desktop4.png" alt="" width="200"/>
+<img src="./screens/desktop1.png" alt="" width="600"/>
+<img src="./screens/desktop2.png" alt="" width="600"/>
+<img src="./screens/desktop3.png" alt="" width="600"/>
+<img src="./screens/desktop4.png" alt="" width="600"/>
 
 ### `<Location/>` with [Leaflet JS](https://leafletjs.com/) Map
 
-<img src="./screens/desktop5.png" alt="" width="200"/>
-<img src="./screens/desktop6.png" alt="" width="200"/>
+<img src="./screens/desktop5.png" alt="" width="600"/>
+<img src="./screens/desktop6.png" alt="" width="600"/>
 
 ## Links
 
@@ -87,39 +87,44 @@ I built this project to practice my <b>React</b> skills.
 ### What I learned
 
 - This is my first project using [React Styled Components](https://styled-components.com/). I started building this project, and once I came to the `<Footer/>` I realized that the `background-color` and the font `color` of the footer would change depending on which page is being rendered.  So I did some research and <b>Styled Components</b> are a great solution for this issue. Overall, I really enjoyed working with <b>Styled Components</b> because they helped me organize my <b>CSS</b> styles, and quickly incorporate <b>responsive media queries</b>.
-  - I used `props` to send `background-color` and font `color` to the `<Footer/>`. Also, figuring out how to conditionally change the color of an `<svg/>` with `props` was extremely challenging😣.
-  
-  <b>in `<Footer/>`</b>
-  ````
-  <FooterStyled
-      bgcolor={props.bgcolor}
-      color={props.color}
-      activecolor={props.activeColor}
-    >
-  ````
-  <b>in the parent component</b>
-  ````
-  <Footer 
-    bgcolor="var(--almost-black)" 
-    color="var(--white)" 
-    activeColor="var(--gold)"
-  />
-  ````
-  <b>and the styled component</b>
-  ````
-  background-color: ${({ bgcolor }) => 
-    bgcolor || "var(--almost-black)"};
-  color: ${({ color }) => 
-    color || "var(--white)"};
-  ````
-  - `<Footer/>` in the `<Home/>` component
-  <img src="./screens/mobile1-5.png" alt="" width="200"/>
-  - `<Footer/>` in the `<Location/>` component
-  <img src="./screens/mobile2-3.png" alt="" width="200"/>
+    - I used `props` to send `background-color` and font `color` to the `<Footer/>`. Also, figuring out how to conditionally change the color of an `<svg/>` with `props` was extremely challenging😣.
+    
+    <b>in `<Footer/>`</b>
+    ````
+    <FooterStyled
+        bgcolor={props.bgcolor}
+        color={props.color}
+        activecolor={props.activeColor}
+      >
+    ````
+    <b>in the parent component</b>
+    ````
+    <Footer 
+      bgcolor="var(--almost-black)" 
+      color="var(--white)" 
+      activeColor="var(--gold)"
+    />
+    ````
+    <b>and the styled component</b>
+    ````
+    background-color: ${({ bgcolor }) => 
+      bgcolor || "var(--almost-black)"};
+    color: ${({ color }) => 
+      color || "var(--white)"};
+    ````
+
+    - `<Footer/>` in the `<Home/>` component
+
+    <img src="./screens/mobile1-5.png" alt="" width="300"/>
+
+    - `<Footer/>` in the `<Location/>` component
+
+    <img src="./screens/mobile2-3.png" alt="" width="300"/>
+
 - This is also one of the first projects where I used <b>Sass</b>. Sass is great, because I created resuable variables for fonts, colors, etc.
 
   - The given <b>Figma</b> specs for colors
-    <img src="./screens/colors.png" alt="" width="200"/>
+    <img src="./screens/colors.png" alt="" />
   - And the <b>Sass/CSS</b> I came up with
 
     ````
@@ -140,7 +145,7 @@ I built this project to practice my <b>React</b> skills.
     ````
 
   - The given <b>Figma</b> specs for fonts
-    <img src="./screens/fonts.png" alt="" width="200"/>
+    <img src="./screens/fonts.png" alt="" />
   - And the <b>Sass/CSS</b> I came up with
 
     ````
