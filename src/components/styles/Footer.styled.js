@@ -6,7 +6,7 @@ export const FooterStyled = styled.footer`
   width: 100vw;
   height: auto;
   margin: 0 0;
-  padding: 2rem 2rem 2rem 1rem;
+  padding: 5rem 2rem 5rem 1rem;
 
   & h2 {
     color: ${({ color }) => color || "var(--white)"};
