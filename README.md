@@ -140,7 +140,7 @@ I built this project to practice my <b>React</b> skills.
     --white: hsl(0, 0%, 100%);
     }
     ````
-   and I included those colors in the <b>Styled Components</b> using
+   and I incorporated these colors in the <b>Styled Components</b> using
     ````
     color: var(--gold);
     color: var(--almost-black);
@@ -149,8 +149,8 @@ I built this project to practice my <b>React</b> skills.
     ````
     
     The given <b>Figma</b> specs for fonts
-    
-    <img src="./screens/fonts.png" alt="" />
+
+  <img src="./screens/fonts.png" alt="" />
 
     And the <b>Sass/CSS</b> I came up with
 
@@ -210,12 +210,13 @@ I built this project to practice my <b>React</b> skills.
 
 ### Continued development
 
-I would like to review the Social Media Icon active state color changes, they don't seem to be working at the moment. Maybe add some additional pages.
+- [ ] I would like to review the Social Media Icon active state color changes, they don't seem to be working at the moment. 
+- [ ] Maybe add some additional pages.
 
 ### Useful resources
 
-- [StackOverflow](https://stackoverflow.com/) - This project would not be possible without <b>StackOverflow</b> 🤣.
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) - MDN was a great reasource for whatever CSS issues I encountered.
+- [StackOverflow](https://stackoverflow.com/) - This project would not be possible without <b>StackOverflow</b>. 🤣
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) - MDN was a great reasource for whatever <b>CSS</b> issues I encountered.
 
 ## Author
 
