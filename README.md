@@ -33,37 +33,36 @@ I built this project to practice my react skills.
   - [ ] Social Media Icons
 - [x] **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
 
-### Screenshot
+### Screenshots
 
-### Mobile
-#### `<Home/>`
+#### Mobile
+##### `<Home/>`
 ![](./screens/mobile1-1.png)
 ![](./screens/mobile1-2.png)
 ![](./screens/mobile1-3.png)
 ![](./screens/mobile1-4.png)
 ![](./screens/mobile1-5.png)
-#### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
+##### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
 ![](./screens/mobile2-1.png)
 ![](./screens/mobile2-2.png)
 ![](./screens/mobile2-3.png)
 
-### Tablet
+#### Tablet
 ![](./screens/tablet1.png)
 ![](./screens/tablet2.png)
 ![](./screens/tablet3.png)
 ![](./screens/tablet4.png)
 
-### Desktop
-#### `<Home/>`
+#### Desktop
+##### `<Home/>`
 ![](./screens/desktop1.png)
 ![](./screens/desktop2.png)
 ![](./screens/desktop3.png)
 ![](./screens/desktop4.png)
 
-#### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
+##### `<Location/>` with  [Leaflet JS](https://leafletjs.com/) Map
 ![](./screens/desktop5.png)
 ![](./screens/desktop6.png)
-
 
 ### Links
 
