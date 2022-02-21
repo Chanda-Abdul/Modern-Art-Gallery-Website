@@ -43,7 +43,4 @@ export const ButtonStyled = styled.button`
   &:active .btn-arrow {
     background-color: ${({ bgtext }) => bgtext || "#000"};
   }
-
-
- 
 `;

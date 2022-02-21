@@ -18,45 +18,26 @@
 /* mobile */
 .title {
   font-family: "Big Shoulders Display", cursive;
-  font-size: 70px;
-  line-height: 70px;
+  font-size: 60px;
+  line-height: 50px;
   text-transform: uppercase;
 }
 
-.byline {
+.byline,
+.inspo-text p,
+footer p {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
-  margin: 1.5rem 0rem;
 }
 
-.your-day h2 {
-  font-family: "Big Shoulders Display", cursive;
-  font-size: 60px;
-  line-height: 50px;
-  text-transform: uppercase;
-  margin: 1.5rem 0rem;
-}
-
-.inspo-text {
-  background-color: var(--almost-black);
-}
-
+.your-day h2,
 .inspo-text h2 {
   font-family: "Big Shoulders Display", cursive;
   font-size: 60px;
   line-height: 50px;
   text-transform: uppercase;
-  color: var(--white);
-}
-
-.inspo-text p {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-  color: var(--white);
 }
 
 footer h4 {
@@ -66,28 +47,8 @@ footer h4 {
   text-transform: uppercase;
 }
 
-footer p {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-}
-
 /* location page*/
-#map {
-  height: 180px;
-}
-
-.locate {
-  position: relative;
-  height: 75vh;
-}
-
 .location-text {
-  position: relative;
-  background-color: var(--almost-black);
-  padding: 2rem 1rem;
-  color: var(--white);
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -99,17 +60,6 @@ footer p {
   font-size: 60px;
   line-height: 50px;
   text-transform: uppercase;
-  margin: 2rem 0rem;
-  color: var(--white);
-}
-
-.location-text ul {
-  margin: 2rem 0rem;
-  list-style: none;
-}
-
-.location-text p {
-  color: var(--white);
 }
 
 .location-text h4 {
@@ -117,14 +67,76 @@ footer p {
   font-size: 36px;
   line-height: 36px;
   text-transform: uppercase;
-  color: var(--gold);
-  margin: 2rem 0rem;
-}
-
-.orange {
-  background-color: var(--gold);
-  color: var(--almost-black);
 }
 
 /* media queries */
+@media (min-width: 768px) {
+  .title {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+  }
+  .byline,
+  .inspo-text p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .your-day h2,
+  .inspo-text h2 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 60px;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+  footer h4 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 60px;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+  footer p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  /* location page*/
+  .location-text {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .location-text h2 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+  }
+  .location-text h4 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 60px;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 1275px) {
+  .title {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+  }
+  .byline,
+  .inspo-text p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
 /*# sourceMappingURL=App.css.map */

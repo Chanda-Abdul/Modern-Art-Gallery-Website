@@ -6,7 +6,7 @@ import { ReactComponent as TwitterIcon } from "../../src/images/icon-twitter.svg
 
 const Footer = (props) => {
   return (
-    <FooterStyled bgcolor={props.bgcolor} color={props.color}>
+    <FooterStyled bgcolor={props.bgcolor} color={props.color} activecolor={props.activeColor}>
    
         <footer>
           <h4>Modern Art Gallery</h4>

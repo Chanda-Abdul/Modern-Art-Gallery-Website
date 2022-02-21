@@ -10,7 +10,7 @@ const Home = () => {
       <Intro />
       <YourDay />
       <Inspo />
-      <Footer bgcolor="var(--almost-black)" color="var(--white)"/>
+      <Footer bgcolor="var(--almost-black)" color="var(--white)" activeColor="var(--gold)"/>
     </>
   );
 };

@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const FooterStyled = styled.footer`
   background-color: ${({ bgcolor }) => bgcolor || "var(--almost-black)"};
   color: ${({ color }) => color || "var(--white)"};
-  margin: 0;
+  width: 100vw;
+  margin: 0 0;
   padding: 2rem 2rem 2rem 1rem;
 
   & h4 {
@@ -27,6 +28,11 @@ export const FooterStyled = styled.footer`
     padding: 0 1rem 0 1rem;
     color: ${({ color }) => color};
     height: 40rem;
+  }
+
+  &.footer-social-icons:hover,
+  &.footer-social-icons:active {
+    color: ${({ activeColor }) => activeColor};
   }
 
   @media (min-width: ${({ theme }) => theme.tablet}) {
@@ -53,6 +59,4 @@ export const FooterStyled = styled.footer`
       padding: 0 0 0 1rem;
     }
   }
-
-  
 `;

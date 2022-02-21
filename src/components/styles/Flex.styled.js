@@ -34,13 +34,10 @@ export const Flex = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.tablet}) {
-   
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
 
-
-    
     h1,
     h2 {
       margin: 1rem;
@@ -52,7 +49,5 @@ export const Flex = styled.div`
       padding: 1rem 1rem 1rem 0;
       width: auto;
     }
-
-   
   }
 `;

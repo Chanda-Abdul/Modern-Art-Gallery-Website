@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
 export const MapStyled = styled.div`
+#map { 
+    height: 180px;
+ }
+ 
+.locate {
+  position: relative;
+  height: 75vh;
+}
   position: relative;
   padding-bottom: 0;
 
