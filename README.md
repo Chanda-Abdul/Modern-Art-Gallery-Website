@@ -208,12 +208,12 @@ I built this project to practice my <b>React</b> skills.
 
   <img src="./screens/button2.png" alt="" width="200"/>
 
-### Continued development
+## Continued development
 
 - [ ] I would like to review the Social Media Icon active state color changes, they don't seem to be working at the moment. 
 - [ ] Maybe add some additional pages.
 
-### Useful resources
+## Useful resources
 
 - [StackOverflow](https://stackoverflow.com/) - This project would not be possible without <b>StackOverflow</b>. 🤣
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) - MDN was a great reasource for whatever <b>CSS</b> issues I encountered.
