@@ -97,7 +97,9 @@ I built this project to practice my <b>React</b> skills.
         activecolor={props.activeColor}
       >
     ````
-    <b>in the parent component</b>
+
+    in the <b>parent component</b>
+
     ````
     <Footer 
       bgcolor="var(--almost-black)" 
@@ -105,7 +107,7 @@ I built this project to practice my <b>React</b> skills.
       activeColor="var(--gold)"
     />
     ````
-    <b>and the styled component</b>
+    and the <b>styled component</b>
     ````
     background-color: ${({ bgcolor }) => 
       bgcolor || "var(--almost-black)"};
@@ -113,19 +115,21 @@ I built this project to practice my <b>React</b> skills.
       color || "var(--white)"};
     ````
 
-    - `<Footer/>` in the `<Home/>` component
+    <b>`<Footer/>` in the `<Home/>` component</b>
 
     <img src="./screens/mobile1-5.png" alt="" width="300"/>
 
-    - `<Footer/>` in the `<Location/>` component
+    <b>`<Footer/>` in the `<Location/>` component</b>
 
     <img src="./screens/mobile2-3.png" alt="" width="300"/>
 
-- This is also one of the first projects where I used <b>Sass</b>. Sass is great, because I created resuable variables for fonts, colors, etc.
+- This is also one of the first projects where I used <b>Sass</b>. <b>Sass</b> is great, because it allows you to create resuable variables for fonts, colors, etc.
 
-  - The given <b>Figma</b> specs for colors
-    <img src="./screens/colors.png" alt="" />
-  - And the <b>Sass/CSS</b> I came up with
+  The given <b>Figma</b> specs for colors
+
+  <img src="./screens/colors.png" alt="" />
+    
+  And the <b>Sass/CSS</b> I came up with
 
     ````
     :root {
@@ -136,17 +140,19 @@ I built this project to practice my <b>React</b> skills.
     --white: hsl(0, 0%, 100%);
     }
     ````
-    - and I included those colors in the <b>Styled Components</b> using
+   and I included those colors in the <b>Styled Components</b> using
     ````
     color: var(--gold);
     color: var(--almost-black);
     color: var(--almost-grey);
     color: var(--white);
     ````
-
-  - The given <b>Figma</b> specs for fonts
+    
+    The given <b>Figma</b> specs for fonts
+    
     <img src="./screens/fonts.png" alt="" />
-  - And the <b>Sass/CSS</b> I came up with
+
+    And the <b>Sass/CSS</b> I came up with
 
     ````
     /* fonts */
@@ -193,9 +199,13 @@ I built this project to practice my <b>React</b> skills.
     }
     ````
 - I also played around with active states and stylings for the `<Button/>` 
-  - Inactive
+
+  <b>Inactive</b>
+
   <img src="./screens/button1.png" alt="" width="200"/>
-  - Active
+
+  <b>Active</b>
+
   <img src="./screens/button2.png" alt="" width="200"/>
 
 ### Continued development
