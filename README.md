@@ -34,7 +34,7 @@ I built this project to practice my react skills.
 - [x] **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
 
 ## Screenshots
-
+- Desktop
 <!-- #### Mobile
 ##### `<Home/>`
 ![](./screens/mobile1-1.png)
@@ -53,7 +53,6 @@ I built this project to practice my react skills.
 ![](./screens/tablet3.png)
 ![](./screens/tablet4.png) -->
 
-### Desktop
 #### `<Home/>`
 ![](./screens/desktop1.png)
 ![](./screens/desktop2.png)
@@ -73,16 +72,12 @@ I built this project to practice my react skills.
 
 ### Built with
 
-- Semantic HTML5 markup
-- Sass
-- CSS custom properties
+- [React](https://reactjs.org/) - JavaScript Framework
+- [Styled Components](https://styled-components.com/) - For styles
+- [Leaflet JS](https://leafletjs.com/) Map
+- Sass/CSS
 - Flexbox
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
