@@ -4,10 +4,13 @@ export const FooterStyled = styled.footer`
   background-color: ${({ bgcolor }) => bgcolor || "var(--almost-black)"};
   color: ${({ color }) => color || "var(--white)"};
   width: 100vw;
+  height: auto;
   margin: 0 0;
   padding: 2rem 2rem 2rem 1rem;
 
-  & h4 {
+  & h2 {
+    color: ${({ color }) => color || "var(--white)"};
+    margin: 0;
     font-size: 1.5rem;
     line-height: 1.35rem;
     width: 40vw;
@@ -36,12 +39,12 @@ export const FooterStyled = styled.footer`
   }
 
   @media (min-width: ${({ theme }) => theme.tablet}) {
-    footer {
+    
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-    }
-    & h4 {
+    
+    & h2 {
       width: 20vw;
       padding: 1rem 1rem 1rem 1rem;
     }

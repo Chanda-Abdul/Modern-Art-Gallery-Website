@@ -68,7 +68,7 @@ footer p {
   @include heading-m;
 }
 
-footer h4 {
+footer h2 {
   @include heading-s;
 }
 
@@ -101,7 +101,7 @@ footer h4 {
     @include heading-m;
   }
 
-  footer h4 {
+  footer h2 {
     @include heading-m;
   }
 

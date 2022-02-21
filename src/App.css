@@ -40,7 +40,7 @@ footer p {
   text-transform: uppercase;
 }
 
-footer h4 {
+footer h2 {
   font-family: "Big Shoulders Display", cursive;
   font-size: 36px;
   line-height: 36px;
@@ -91,7 +91,7 @@ footer h4 {
     line-height: 50px;
     text-transform: uppercase;
   }
-  footer h4 {
+  footer h2 {
     font-family: "Big Shoulders Display", cursive;
     font-size: 60px;
     line-height: 50px;
