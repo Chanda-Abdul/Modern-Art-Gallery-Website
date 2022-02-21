@@ -93,62 +93,64 @@ I built this project to practice my react skills.
     ![](./screens/colors.png)
   - And the <b>Sass/CSS</b> I came up with
 
-  ```
-  :root {
-  /* color palette */
-  --gold: hsl(24, 56%, 63%);
-  --almost-black: hsl(0, 0%, 8%);
-  --almost-grey: hsl(0, 0%, 27%);
-  --white: hsl(0, 0%, 100%);
-  }
-  ```
+    ````
+    :root {
+    /* color palette */
+    --gold: hsl(24, 56%, 63%);
+    --almost-black: hsl(0, 0%, 8%);
+    --almost-grey: hsl(0, 0%, 27%);
+    --white: hsl(0, 0%, 100%);
+    }
+    ````
 
   - The given <b>Figma</b> specs for fonts
     ![](./screens/fonts.png)
   - And the <b>Sass/CSS</b> I came up with
 
-```/* fonts */
-@mixin heading-xl {
-font-family: "Big Shoulders Display", cursive;
-font-size: 96px;
-line-height: 88px;
-text-transform: uppercase;
-}
-@mixin heading-l {
-font-family: "Big Shoulders Display", cursive;
-font-size: 70px;
-line-height: 70px;
-text-transform: uppercase;
-}
-@mixin heading-m {
-font-family: "Big Shoulders Display", cursive;
-font-size: 60px;
-line-height: 50px;
-text-transform: uppercase;
-}
-@mixin heading-s {
-font-family: "Big Shoulders Display", cursive;
-font-size: 36px;
-line-height: 36px;
-text-transform: uppercase;
-}
-@mixin body-m {
-font-family: "Outfit", sans-serif;
-font-weight: 300;
-font-size: 22px;
-line-height: 32px;
-}
-@mixin body-s {
-font-family: "Outfit", sans-serif;
-font-weight: 300;
-font-size: 18px;
-line-height: 28px;
-}
+    ````
+    /* fonts */
+    @mixin heading-xl {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+    }
+    @mixin heading-l {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    }
+    @mixin heading-m {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 60px;
+    line-height: 50px;
+    text-transform: uppercase;
+    }
+    @mixin heading-s {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    }
+    @mixin body-m {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    }
+    @mixin body-s {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    }
 
-/* mobile */
-.title {
-@include heading-m;
-}```
+    /* mobile */
+    .title {
+    @include heading-m;
+    }
+    ````
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
