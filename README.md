@@ -83,6 +83,9 @@ I built this project to practice my <b>React</b> skills.
 - <b>Sass/CSS</b>
 - <b>Flexbox</b>
 - <b>Mobile-first workflow</b>
+  - Mobile breakpoint: 375px
+  - Tablet beakpoint: 768px
+  - Desktop breakpoint: 1275px
 
 ### What I learned
 
@@ -140,7 +143,7 @@ I built this project to practice my <b>React</b> skills.
     --white: hsl(0, 0%, 100%);
     }
     ````
-   and I incorporated these colors in the <b>Styled Components</b> using
+   and I incorporated these colors into the <b>Styled Components</b> using
     ````
     color: var(--gold);
     color: var(--almost-black);
